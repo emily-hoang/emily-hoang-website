@@ -1,0 +1,24 @@
+# Part 3 — From Adversity To Algorithms: The Journey Of Emily Hoang
+## Chapter 3: Life's Unexpected Turns
+
+<br>For the next few years, I worked long hours jobs to support myself and send money back home as my parents were deeply in debt to support my dream of furthering my education. Nothing seemed stable and life was an endless cycle of struggle.
+<br>The relentless routine of long shifts had become my daily reality, each day blending into the next until an unexpected encounter breathed new life into my world.
+<br>It was a humid afternoon, and I was working my shift in a cozy café tucked away from the noisy streets. A stranger walked in and sat by the window. He settled in quickly with a cà phê đá — the quintessential Vietnamese iced coffee.
+<br>Our eyes met by chance, and there was an instant connection, an unspoken understanding that life had orchestrated this moment for a reason. He introduced himself as an adventurous Australian soul exploring the enchanting land of Vietnam.
+<br>The conversation flowed effortlessly as if we had known each other for a lifetime. We shared stories of our travels, our dreams, and our love for discovering new cultures. The tales of his adventures around Southeast Asia were enchanting, and I was captivated by the way he saw the world.
+<br>Hours turned into minutes, and the café that had been our sanctuary was now closing its doors. Reluctantly, we stepped back out into the vibrant streets of the city. With the fading daylight casting a warm glow on the city, we decided to embark on an impromptu adventure together.
+<br>We meandered through the busy streets, sampling street food delicacies, from the delectable phở to the crispy bánh mì. The chaotic traffic, the intoxicating scent of herbs and spices, and the laughter of locals became the soundtrack to our brief, unforgettable encounter.
+<br>As the night deepened, we found ourselves atop a hidden rooftop bar, gazing at the sea of twinkling city lights below. It was there, under the starry Vietnamese sky, that we made a pact to keep our connection alive, no matter the miles that would soon separate us.
+<br>Days turned into weeks, and our time in Vietnam drew to a close. His journey would take him back to the faraway shores of Australia, while I would remain in the enchanting embrace of Ho Chi Minh City.
+<br>Distance could not extinguish the spark that had ignited between us. We kept our daily conversations going for several months after he went back to Australia. Across time zones and oceans, we exchanged messages, shared our daily adventures, and built a bond that defied geography. It was a romance that blossomed between us amidst my uncertain reality.
+<br>In the years that followed, I travelled to Australia numerous of times to visit him. Together, we travelled around Australia and sometimes, discovered new corners of the world.
+
+![Travelling to Australia](/images/blogs-images/travelling-to-aus.png)
+<br>During my visits, he spoke of the abundant opportunities available for pursuing higher education in Australia. His narrative painted Australia as a place where the pursuit of knowledge was not just encouraged but celebrated. It was a destination where the doors to education remained wide open, offering the prospect of a brighter academic future.
+<br>The seeds of possibility were sown in those conversations that started me to think about moving to Australia — a place that might hold the key to the next chapter of my journey. The prospect of higher education in a land brimming with opportunity lingered in my thoughts, a dream that now seemed to be within reach, thanks to the chance encounter that had reshaped my perspective on what lay ahead.
+<br>When he extended an invitation to migrate to Australia with him, I was taken aback yet tempted. Leaving my country was never part of my plan but the prospect of stability drew me in. After many restless nights of consideration and discussion with my parents, I made the leap. With their blessings and well-wishes, I boarded a flight to the other side of the world, ready to embrace a new chapter. In Australia, he and I got married after a couple of years of going back and forth between the 2 countries.
+
+![Getting married](/images/blogs-images/getting-married.png)
+<br>While adjusting to the many changes, I was relieved to have found love and comfort in him. He helped me settle in, taught me English and guided me through the citizenship process. However, life Down Under was not all rosy. Work was scarce due to the language barrier and cultural differences. I ended up working in a Vietnamese cafe for multiple years.
+
+<br>After moving to another city, we soon found ourselves pregnant. Raising a young family amplified the challenges. Through it all, my burning desire to give my daughter a better future than I had kept me going. Little did I know that pursuing that vision would lead me down a path I never imagined.
