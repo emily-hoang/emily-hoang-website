@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktf_react_chester=self.webpackChunktf_react_chester||[]).push([[909],{1066:(e,t,s)=>{e.exports=s.p+"static/media/software-design-with-SOLID-principles.79cf6b67bf9b4bf058e7.md"}}]);
