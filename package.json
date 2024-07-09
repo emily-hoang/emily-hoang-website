@@ -1,6 +1,6 @@
 {
-	"name": "tf-react-chester",
-	"homepage": "https://nhunghoang.com",
+	"name": "tf-react-emily",
+	"homepage": "https://github.com/emily-hoang/emily-hoang-website.git",
 	"version": "5.0.2",
 	"license": "MIT",
 	"dependencies": {
@@ -29,7 +29,7 @@
 	},
 	"scripts": {
 		"predeploy": "npm run build",
-		"deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
