@@ -1,8 +1,5 @@
 # Emily Hoang Personal Website
 ## Available Scripts
-
-In the project directory, you can run:
-
 ### `npm`
 
 Runs the app in the development mode.<br>
