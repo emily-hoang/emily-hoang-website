@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.99069866.css",
-    "main.js": "/static/js/main.55f94e1a.js",
+    "main.js": "/static/js/main.e0fbd664.js",
     "static/js/101.8a9ceb94.chunk.js": "/static/js/101.8a9ceb94.chunk.js",
     "static/js/736.deeb5d04.chunk.js": "/static/js/736.deeb5d04.chunk.js",
     "static/js/818.2ad02d2f.chunk.js": "/static/js/818.2ad02d2f.chunk.js",
@@ -10,9 +10,11 @@
     "static/js/227.f37603c7.chunk.js": "/static/js/227.f37603c7.chunk.js",
     "static/js/56.ea68b10f.chunk.js": "/static/js/56.ea68b10f.chunk.js",
     "static/js/652.74abe3ce.chunk.js": "/static/js/652.74abe3ce.chunk.js",
+    "static/js/75.bd9ee0c4.chunk.js": "/static/js/75.bd9ee0c4.chunk.js",
     "static/js/909.269b6d68.chunk.js": "/static/js/909.269b6d68.chunk.js",
     "static/media/software-design-with-SOLID-principles.md": "/static/media/software-design-with-SOLID-principles.79cf6b67bf9b4bf058e7.md",
     "static/media/pair-programming.md": "/static/media/pair-programming.84d64fa945ac10c4d3c4.md",
+    "static/media/performance-testing-part-2.md": "/static/media/performance-testing-part-2.31fab87a673f2f7209d3.md",
     "static/media/from-adversity-to-algorithms-part-5.md": "/static/media/from-adversity-to-algorithms-part-5.e9fa65d1307b8e88663f.md",
     "static/media/performance-testing-part-1.md": "/static/media/performance-testing-part-1.dc3563fc928266b474c4.md",
     "static/media/aws-summit.md": "/static/media/aws-summit.a3303118e5024ba6bf9d.md",
@@ -26,10 +28,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.99069866.css.map": "/static/css/main.99069866.css.map",
-    "main.55f94e1a.js.map": "/static/js/main.55f94e1a.js.map"
+    "main.e0fbd664.js.map": "/static/js/main.e0fbd664.js.map"
   },
   "entrypoints": [
     "static/css/main.99069866.css",
-    "static/js/main.55f94e1a.js"
+    "static/js/main.e0fbd664.js"
   ]
 }
