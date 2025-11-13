@@ -1,6 +1,4 @@
-# The Performance Testing Guide I Wish I Had — Part 2
-
-## Analysis and Preparation
+# Analysis and Preparation
 
 One common mistake that I’ve seen is that teams often focus on execution while underestimating the effort required in preparation.
 
@@ -10,7 +8,7 @@ Data preparation, environment setup, and requirement analysis are where the foun
 
 ---
 
-# Understanding the Software Testing Process
+## Understanding the Software Testing Process
 
 Performance testing isn’t a single event — it’s a lifecycle.
 Just like functional testing follows the **Software Testing Life Cycle (STLC)**, performance testing also benefits from the same structured discipline.
@@ -272,5 +270,4 @@ In the next part of this series, we’ll explore:
 * Metrics that actually matter
 * How to monitor them meaningfully
 * How to interpret results to drive engineering improvements
-
 ---
