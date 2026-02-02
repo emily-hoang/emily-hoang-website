@@ -1,10 +1,10 @@
 # A Simple & Secure Network Setup With AWS
 
-As developers, we often want to gain practical experience with core AWS services and concepts by building a POC or running experiments. This helps reinforce our learning and prepare us for real-world challenges. Today, I’m sharing my learning and experience on AWS networking, especially around setting up a custom AWS VPC that prioritises secure access and network isolation.
+As developers, we often want to gain practical experience with core AWS services and concepts by building a POC or running experiments. This helps reinforce our learning and prepare us for real-world challenges. Today, I'm sharing my learning and experience on AWS networking, especially around setting up a custom AWS VPC that prioritises secure access and network isolation.
 
 Given that I need to deploy a small Proof of Concept (POC) of my **expense tracking app,** which helps me track my monthly spending and provides suggestions for saving, turning financial insights into actionable habits, there are challenges in terms of balancing **speed of development** with **security best practices**. 
 
-While it’s tempting to put everything in a single public subnet or using AWS default resources (such as default VPC, NACL, Security Group, etc.) to get the app running quickly, doing so exposes sensitive data—like my expense records—and increases the risk of misconfigurations.
+While it's tempting to put everything in a single public subnet or using AWS default resources (such as default VPC, NACL, Security Group, etc.) to get the app running quickly, doing so exposes sensitive data—like my expense records—and increases the risk of misconfigurations.
 
 My goal is to design a **lean and secure AWS network** that allows me to:
 
@@ -12,7 +12,7 @@ My goal is to design a **lean and secure AWS network** that allows me to:
 2. Restrict access to sensitive components such as the database.
 3. Enable safe developer access for ongoing development and experimentation.
 
-I’ll provide a clear, step-by-step guide for building secure, practical networking on AWS—even for small personal projects and eventually a high available and resilient architecture for enterprise applications.
+I'll provide a clear, step-by-step guide for building secure, practical networking on AWS—even for small personal projects and eventually a high available and resilient architecture for enterprise applications.
 
 ![Simple and Secure Network Setup](/images/blogs-images/simple-secure-vpc-network-setup.png)
 
@@ -35,7 +35,7 @@ This is where things that must talk to the internet live:
 
 #### **Private Subnet – Your App**
 
-This is where your app runs. AWS offers a wide spectrum of computing services, ranging from VMs to serverless and container services. Depending on your app’s needs, you might choose one based on how much control you want over the underlying infrastructure:
+This is where your app runs. AWS offers a wide spectrum of computing services, ranging from VMs to serverless and container services. Depending on your app's needs, you might choose one based on how much control you want over the underlying infrastructure:
 
 - **Virtual Machines**: EC2, Lightsail
 - **Serverless Compute**: Lambda, Fargate, App Runner
@@ -58,7 +58,7 @@ This is the most protected layer. The database subnet has **no route to the inte
 
 **Why this matters:**
 
-Even if someone hacks your app, they still can’t directly reach your database.
+Even if someone hacks your app, they still can't directly reach your database.
 
 ---
 
@@ -79,7 +79,7 @@ In my 3-segment setup (Public, Private, Database), the NACL serves three critica
 #### Security Group
 
 Security Groups act like firewalls for each layer.
-Here’s the simple rule set:
+Here's the simple rule set:
 
 **ALB Security Group**
 
@@ -167,9 +167,9 @@ Even with VPC Endpoints (mentioned above), your app might still be "stranded" in
 
 - **Software Updates:** Running `bundle install`, `yum update`, or `apt-get upgrade` requires reaching external repositories (RubyGems, GitHub, Ubuntu mirrors).
 - **Third-Party APIs:** If your app connects to **Stripe** for transaction data or **SendGrid** for emails, those are public internet endpoints. A VPC Endpoint cannot reach them.
-- **External OAuth:** If you want users to "Login with Google," your server needs to talk to Google’s servers.
+- **External OAuth:** If you want users to "Login with Google," your server needs to talk to Google's servers.
 
-However, NAT Gateway will cost ~32$/month, for a cheaper option, you can use a **NAT Instance** (a tiny `t4g.nano` instance you manage yourself in case of setting this up for a POC or experiments). It’s significantly cheaper than the managed NAT Gateway service, though it requires more manual setup.
+However, NAT Gateway will cost ~32$/month, for a cheaper option, you can use a **NAT Instance** (a tiny `t4g.nano` instance you manage yourself in case of setting this up for a POC or experiments). It's significantly cheaper than the managed NAT Gateway service, though it requires more manual setup.
 
 ---
 
@@ -205,7 +205,7 @@ With this setup, your POC has:
 - **Controlled SSH access**
 - **Private access to AWS services**
 
-You’re still moving fast — but now you’re building on a foundation that won’t fall apart if your app becomes the real thing.
+You're still moving fast — but now you're building on a foundation that won't fall apart if your app becomes the real thing.
 
 ## Step-by-Step: Creating the 3-Tier Secure VPC
 
@@ -221,7 +221,7 @@ You’re still moving fast — but now you’re building on a foundation that wo
         - Subnet 1 will be your **Application Tier** (e.g. CIDR: `10.0.1.0/24`).
         - Subnet 2 will be your **Database Tier** (e.g. CIDR: `10.0.1.1/24`).
     - *Best Practice:* Physically separating the Application and Database tiers into different subnets allows you to apply strict NACL boundaries between them.
-6. **NAT Gateways:** Select **Regional - new** which offers a multi-AZ NAT Gateway or **Zonal** which requires 1 NAT Gateway per AZ. In this example, we’ll choose **Zonal**, and select **1 per AZ**.
+6. **NAT Gateways:** Select **Regional - new** which offers a multi-AZ NAT Gateway or **Zonal** which requires 1 NAT Gateway per AZ. In this example, we'll choose **Zonal**, and select **1 per AZ**.
     - *Use Case:* Required for your EC2s in the private subnet to download external libraries/packages or security patches from the internet.
 7. **VPC Endpoints (The Private Link):**  Select **S3 Gateway**.
     - *Best Practice:* Gateway endpoints are free and keep S3 traffic off the internet.
@@ -256,7 +256,7 @@ You must manually create the four distinct Security Groups shown in the red dash
 - **App SG:** Allows port 80 from the **ALB SG** and port 22 from the **Bastion SG**.
 - **DB SG:** Allows the database port (e.g., 5432 for Postgres) **only** from the **App SG**.
 
-By following this blueprint, you’ve successfully deployed a 'dark' VPC—a robust environment where your application logic and data remain invisible to the public web while your app’s functionalities are still securely published to the world. You're operating on a foundation built for privacy and resilience.
+By following this blueprint, you've successfully deployed a 'dark' VPC—a robust environment where your application logic and data remain invisible to the public web while your app's functionalities are still securely published to the world. You're operating on a foundation built for privacy and resilience.
 And if you're ready to take it to the next level, check out my follow-up blog on scaling this architecture across multiple Availability Zones for enterprise-grade reliability.
 
 Happy building! 🚀

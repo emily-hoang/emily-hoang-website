@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktf_react_chester=self.webpackChunktf_react_chester||[]).push([[652],{8652:(e,t,c)=>{e.exports=c.p+"static/media/performance-testing-part-1.dc3563fc928266b474c4.md"}}]);

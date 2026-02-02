@@ -80,7 +80,7 @@ Spike testing evaluates how your system reacts to sudden surges in user activity
 
 **Why it matters:**
 It's not just about how fast your system can scale up — it's about how well it can recover when traffic returns to normal.
-A system that can handle spikes but never recovers properly afterward isn't reliable.
+A system that can handle spikes but never recovers properly afterwards isn't reliable.
 
 ---
 
