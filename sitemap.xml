@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://nhunghoang.com/#/</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- About Page -->
+  <url>
+    <loc>https://nhunghoang.com/#/about</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Resume Page -->
+  <url>
+    <loc>https://nhunghoang.com/#/resume</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Domains Page -->
+  <url>
+    <loc>https://nhunghoang.com/#/domains</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Blogs Page -->
+  <url>
+    <loc>https://nhunghoang.com/#/blogs</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Individual Blog Posts -->
+  <url>
+    <loc>https://nhunghoang.com/#/blogs/1/a-simple-secure-network-setup-with-aws</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://nhunghoang.com/#/blogs/2/multi-az-enterprise-network-setup</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://nhunghoang.com/#/blogs/3/performance-testing-part-1</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://nhunghoang.com/#/blogs/4/performance-testing-part-2</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://nhunghoang.com/#/blogs/5/performance-testing-part-3</loc>
+    <lastmod>2025-11-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://nhunghoang.com/#/blogs/6/from-adversity-to-algorithms-part-1</loc>
+    <lastmod>2023-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://nhunghoang.com/#/blogs/7/from-adversity-to-algorithms-part-2</loc>
+    <lastmod>2023-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://nhunghoang.com/#/blogs/8/from-adversity-to-algorithms-part-3</loc>
+    <lastmod>2023-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://nhunghoang.com/#/blogs/9/from-adversity-to-algorithms-part-4</loc>
+    <lastmod>2023-10-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://nhunghoang.com/#/blogs/10/from-adversity-to-algorithms-part-5</loc>
+    <lastmod>2023-10-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://nhunghoang.com/#/blogs/11/crafting-maintainable-code-with-solid-principles</loc>
+    <lastmod>2023-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://nhunghoang.com/#/blogs/12/pair-programming-unveiled-a-software-consultants-perspective</loc>
+    <lastmod>2023-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://nhunghoang.com/#/blogs/13/aws-summit-sydney-2024-exploring-the-future-of-ai</loc>
+    <lastmod>2024-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
