@@ -256,6 +256,7 @@ You must manually create the four distinct Security Groups shown in the red dash
 - **App SG:** Allows port 80 from the **ALB SG** and port 22 from the **Bastion SG**.
 - **DB SG:** Allows the database port (e.g., 5432 for Postgres) **only** from the **App SG**.
 
-By following this blueprint, you’ve successfully deployed a 'dark' VPC—a robust environment where your application logic and data remain invisible to the public web while your app’s functionalities are still securely published to the world. You're operating on a foundation built for privacy and resilience.”
+By following this blueprint, you’ve successfully deployed a 'dark' VPC—a robust environment where your application logic and data remain invisible to the public web while your app’s functionalities are still securely published to the world. You're operating on a foundation built for privacy and resilience.
+And if you're ready to take it to the next level, check out my follow-up blog on scaling this architecture across multiple Availability Zones for enterprise-grade reliability.
 
-Happy building 🚀
+Happy building! 🚀

@@ -1,4 +1,4 @@
-# Multi-AZ Enterpise Network Setup
+# Multi-AZ Enterprise Network Setup
 
 ![Multi-AZ Network Setup](/images/blogs-images/multi-azs-vpc-setup.png)
 
